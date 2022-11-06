@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:("Noto Naskh Arabic,Arial,sans-serif");
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #333;
+   
+}
+.header{
+    background: 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+
+}
+.top_header {
+    position: relative;
+    max-width: 1400px;
+    background-color: #2386c8;
+    font-size: 18px;
+       height:60px;
+      
+}
+.web_logo{
+    float: none;
+    padding: 13px;
+    width:70px;
+    height: 30px;
+
+
+}
+
+.web_logo img{
+   max-width: 90px;
+   padding-top: 5px;
+    border:0;
+}
+
+
+.top_header a { background-color: #2386c8;
+    color: white;
+    padding:10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+
+}
+.header a:hover{
+    background-color: #67b0e0;
+
+}
+
+.right_a{
+display:inline-block ;
+float: right;
+}
+.left_a{
+    display:inline-block ;
+    padding: 5px;
+    float: left;
+    
+    }
+ .button{
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+ }   
+.button:hover{
+background-color:#5393bd ;
+}
+.input_search{
+    display: inline-block;
+}
+.button_search{
+    background-color: #2386c8;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    
+}
+.center{
+    max-width: 1400px;
+    
+}
+
+
+.row{   
+    margin-right: -15px;
+    height:400px;
+    margin-left: -15px;
+    max-width: 1400px;
+}
+.vedio{
+    padding: 20px;
+    float:left;
+    width:60%;
+    display: inline-block;
+    height: 100%;
+    
+  
+    
+}
+/*
+.vedio1{ 
+     
+    width:300px;
+    height:400px ;
+  
+}*/
+
+/* الشغل على القائمة*/
+.lists-div{
+    width: 60%;
+    float: left
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.lists-div p {
+    font-size: 17px;
+
+}
+.lists{
+    list-style: none;
+    margin-bottom: 10px;
+    padding-inline-start: 40px;
+    list-style-type: circle;
+
+
+
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+i{
+    background: #3a99d8;
+    border-radius: 25px;
+    color: #fff;
+    position: absolute;
+    right: -30px;
+    text-align: center;
+    top: 4px;
+    width: 20px;
+}
+
+ li h4{    font-family:( "Noto Kufi Arabic,Arial,sans-serif");
+    font-size: 25px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: inline-block;
+}
+.third-section{ 
+    background-color: #3a99d8;
+    color: white;
+    padding: 20px;
+    height:700px;
+    max-width: 1400px;
+   text-align: center;
+}
+
+h3{
+    font-size: 28px; 
+    
+}
+.divs-in-row div {
+    display: inline-block;
+    
+    padding: 20px;
+    margin:20px; 
+}
+.divs-in-row p{ font-size: 16px;
+
+}
+table{
+    text-align: center;
+    color: black;
+    height:200px;
+    width: 1400px;
+    padding:20px ;
+    margin: 20px;
+    font-size: 20px;
+}
+table img{
+    height: 100px;
+    width: 100px;
+
+}
+table a{
+    text-decoration: none;
+    color: black;
+}
+td{
+
+}
+
+.boxes{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color:black}
+
+ .car h1 a:hover{ background-color: rgb(80, 77, 77);
+    padding: 10px;
+
+    }
+.animal {
+    width: 1400px;
+    max-height:30pxpx;
+        color: #2386c8;
+ padding: 30px;
+   margin: 5px;
+   
+    line-height: 1.8;
+  
+}
+
+ .animal-child a{ text-decoration: none;
+   
+/*
+}
+.center{
+    max-width: 1400px;
+    padding-top: 20px;
+
+    padding-bottom: 40px
+
+padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.web_logo{
+    float: none;
+    padding: 13px;
+
+}
+
+.web_logo img{
+   max-width: 36px;
+    border:0;
+}
+
+
+p{
+    background-image: url(header-bg-1.png);
+    background-color: gold;
+}
+.top_ph{
+    background: 50% ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+}
+.main_container{
+    background-image: url('img_girl.jpg');
+   background-image: url("/header-bg-1.png");
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000;
+}
+*/
